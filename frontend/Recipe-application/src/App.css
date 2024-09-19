@@ -17,9 +17,10 @@ body{
   justify-items: center;
   display: flex;
   align-items: center;
-  background-image: url('./assets/BG3.jpg');
+  /* background-image: url('./assets/pexels-valeriya-842571.jpg');
   background-repeat: no-repeat;
   background-size: cover;
-  background-position-y: center;
+  background-position-y: center; */
+  background-color: rgb(35, 32, 29);
 }
 
