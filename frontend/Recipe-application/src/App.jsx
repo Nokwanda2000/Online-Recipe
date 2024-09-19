@@ -21,6 +21,7 @@ function App() {
           <Route exact path='/landing' index element={<Landing/>}></Route>
           <Route path='/Registerpage' element={<Registerpage/>}></Route>
           <Route path='/Login' element={<Login/>}></Route>
+          <Route path='/Recipespage' element={<Recipes/>}></Route>
          </Route> 
    
       </Routes>

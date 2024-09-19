@@ -5,7 +5,7 @@ import { Link, Outlet } from 'react-router-dom'
 
 export default function Layout() {
   return (
-    <div className="container mx-auto p-4 fixed">
+    <div className="container mx-auto p-4 ">
       <nav className="flex justify-between bg-aa7e53 py-4">
         <div className="nav-brand text-2xl text-white">
           <Link to="/">Tasty </Link>
@@ -22,6 +22,10 @@ export default function Layout() {
             </li>
             <li className="mr-4">
               <Link to='/login'  className="text-white hover:text-gray-200">Login</Link>
+            
+            </li>
+            <li className="mr-4">
+              <Link to='/Recipespage'  className="text-white hover:text-gray-200">Recipe</Link>
             
             </li>
           
