@@ -60,7 +60,7 @@ export default function Landing() {
   <img 
     src={Image2} 
     alt="Organise" 
-    className='h-[500px] rounded-lg md:max-w-sm w-full object-cover'
+    className='h-[500px] rounded-lg md:max-w-sm w-full object-cover animate-bounce-1'
   />
 </div>
 

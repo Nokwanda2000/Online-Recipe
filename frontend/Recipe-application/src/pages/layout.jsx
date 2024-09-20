@@ -6,7 +6,7 @@ export default function Layout() {
     <div className="container mx-auto ">
       <nav className="flex justify-between bg-aa7e53 py-4 fixed w-full z-10 top-0">
         <div className="nav-brand text-2xl text-blue-500 font-bold  hover:text-green-500">
-          <Link to="/">Tasty</Link>
+          <Link to="/landing">Tasty</Link>
         </div>
         <div className="nav-links flex ">
           <ul className="flex ">
