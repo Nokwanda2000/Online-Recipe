@@ -18,8 +18,8 @@ function App() {
 
 <BrowserRouter>
       <Routes>
-        <Route exact path="/"  element={<Layout/>}>
-          <Route exact path='/landing' index element={<Landing/>}></Route>
+        <Route path='/'  element={<Layout/>}>
+          <Route  path='/landing' index element={<Landing/>}></Route>
           <Route path='/Registerpage' element={<Registerpage/>}></Route>
           <Route path='/Login' element={<Login/>}></Route>
           <Route path='/Recipespage' element={<Recipespage/>}></Route>

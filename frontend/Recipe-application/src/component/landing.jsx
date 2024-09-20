@@ -19,7 +19,7 @@ export default function Landing() {
         }}
       >
         {/* Start Cooking Button */}
-        <Link to="/Register">
+        <Link to="/Registerpage">
           <button
             className="text-white px-6 sm:px-10 py-3 sm:py-4 bg-sky-700 hover:bg-sky-800 focus:ring-4 focus:ring-sky-300 rounded-lg text-lg font-semibold transition duration-300 ease-in-out"
           >

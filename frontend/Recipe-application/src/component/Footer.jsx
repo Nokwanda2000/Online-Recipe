@@ -78,14 +78,14 @@ export default function Footer() {
 
 
           {/* Additional Links */}
-          <div className="flex space-x-4">
+          <div className="flex space-x-4 font-medium">
             <a href="#jobs" className="hover:underline">Jobs</a>
             <a href="#contact" className="hover:underline">Contact</a>
           </div>
         </div>
 
         {/* Copyright */}
-        <div className="mt-6 text-center">
+        <div className="mt-6 text-center font-normal">
           <p>Copyright © {new Date().getFullYear()} - All rights reserved by Tasty</p>
         </div>
       </div>
