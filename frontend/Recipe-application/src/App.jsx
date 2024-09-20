@@ -7,6 +7,7 @@ import Recipes from './component/recipes';
 import Login from './component/login';
 import Footer from './component/Footer';
 import Landing from './component/landing';
+import Recipespage from './pages/Recipespage';
 // import Footer from './component/Footer';
 function App() {
 
@@ -21,14 +22,14 @@ function App() {
           <Route exact path='/landing' index element={<Landing/>}></Route>
           <Route path='/Registerpage' element={<Registerpage/>}></Route>
           <Route path='/Login' element={<Login/>}></Route>
-          <Route path='/Recipespage' element={<Recipes/>}></Route>
+          <Route path='/Recipespage' element={<Recipespage/>}></Route>
          </Route> 
    
       </Routes>
     </BrowserRouter>
 
  
-   
+   <Footer/>
     </>
   )
 }
