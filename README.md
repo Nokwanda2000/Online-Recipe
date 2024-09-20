@@ -2,6 +2,7 @@
 <h1>Online-Recipe-Application</h1>
 <p>This app allows users to upload their recipes online</p>
 ## Run Locally
+
 Clone the project
 ```bash
   git clone https://github.com/Amniei/Shopping-List.git
