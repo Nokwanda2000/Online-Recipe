@@ -5,7 +5,7 @@
 
 Clone the project
 ```bash
-  git clone https://github.com/Amniei/Shopping-List.git
+  https://github.com/Nokwanda2000/Online-Recipe
 ```
 
 Go to the project directory
