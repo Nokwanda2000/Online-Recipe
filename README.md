@@ -10,7 +10,7 @@ Clone the project
 
 Go to the project directory
 ```bash
-  cd Shopping-List
+  cd frontend
 ```
 
 Install dependencies
